@@ -49,9 +49,9 @@ class App extends Component {
 
   playSound(eventObj) {
     //code to be run when click event is fired goes below this line!
-    console.log(eventObj.currentTarget.id)
+    console.log(eventObj.currentTarget.id);
     Sounds[eventObj.currentTarget.id].currentTime = 0;
-    Sounds[eventObj.currentTarget.id].play()
+    Sounds[eventObj.currentTarget.id].play();
   }
 
   render(){
@@ -61,7 +61,7 @@ class App extends Component {
     }
 
     return (
-      <div className='button-container'>
+      <div className='button-container'>;
 
      {/* Components that need to be returned from App go below here ! */}
       {buttons}
